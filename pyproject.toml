@@ -44,6 +44,8 @@ dependencies = [
     "opentelemetry-instrumentation-openai>=0.37.1",
     "onnx-diarization>=0.1.0",
 ]
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [dependency-groups]
 dev = [
